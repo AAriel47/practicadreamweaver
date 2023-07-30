@@ -1,0 +1,66 @@
+@charset "utf-8";
+.grueso{font-weight:bold; color:#0D06AD; }
+
+.anteior{background-color:#9DF5BD; font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif"; font-weight: bold; 
+p {
+    color: #FF0303;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border-radius: 72px;
+    background-image: -webkit-linear-gradient(1deg,rgba(6,195,243,1.00) 0%,rgba(248,255,0,1.00) 100%);
+    background-image: -moz-linear-gradient(1deg,rgba(6,195,243,1.00) 0%,rgba(248,255,0,1.00) 100%);
+    background-image: -o-linear-gradient(1deg,rgba(6,195,243,1.00) 0%,rgba(248,255,0,1.00) 100%);
+    background-image: linear-gradient(89deg,rgba(6,195,243,1.00) 0%,rgba(248,255,0,1.00) 100%);
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+    font-style: normal;
+    font-size: large;
+    font-variant: normal;
+    font-weight: bold;
+}
+
+pre{font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";color:green;}
+body p {
+}
+span{color:blue;font-style: oblique;font-size: 18px;font-weight: 200;text-decoration: underline; font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";}
+@media (max-width: 649px){p{
+    color: #FB0514;
+    border: 2px solid #098213;
+    margin-top: 42px;
+    margin-bottom: 19px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    left: auto;
+    text-shadow: 0px 0px #1BA4A2;
+}
+	.bor{
+    border: 6px solid green;
+    background-color: orange;
+    color: green;
+    font-variant: small-caps;
+}
+}
+.bord{
+    border: 6px solid green;
+    background-color: lightpink;
+    border-radius: 19px;
+    background-image: -webkit-linear-gradient(6deg,rgba(236,251,0,1.00) 0%,rgba(255,15,0,1.00) 100%);
+    background-image: -moz-linear-gradient(6deg,rgba(236,251,0,1.00) 0%,rgba(255,15,0,1.00) 100%);
+    background-image: -o-linear-gradient(6deg,rgba(236,251,0,1.00) 0%,rgba(255,15,0,1.00) 100%);
+    background-image: linear-gradient(84deg,rgba(236,251,0,1.00) 0%,rgba(255,15,0,1.00) 100%);
+}
+h1   {
+    color: #1013B3;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    font-style: oblique;
+    font-variant: small-caps;
+    text-shadow: 2px 0px #8E8787;
+    border-radius: 70px;
+    background-image: -webkit-linear-gradient(178deg,rgba(11,180,36,1.00) 0%,rgba(255,0,0,1.00) 100%);
+    background-image: -moz-linear-gradient(178deg,rgba(11,180,36,1.00) 0%,rgba(255,0,0,1.00) 100%);
+    background-image: -o-linear-gradient(178deg,rgba(11,180,36,1.00) 0%,rgba(255,0,0,1.00) 100%);
+    border: 3px solid black;
+    background-image: linear-gradient(272deg,rgba(11,180,36,1.00) 0%,rgba(255,0,0,1.00) 100%);
+}
