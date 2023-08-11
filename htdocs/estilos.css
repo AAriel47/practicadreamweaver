@@ -1,7 +1,7 @@
 @charset "utf-8";
 .grueso{font-weight:bold; color:#0D06AD; }
 
-.anteior{background-color:#9DF5BD; font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif"; font-weight: bold; }
+.anteior{background-color:#9DF5BD; font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif"; font-weight: bold; 
 p {
     color: #FF0303;
     text-align: center;
@@ -25,8 +25,16 @@ pre{font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black",
 body p {
 }
 span{color:blue;font-style: oblique;font-size: 18px;font-weight: 200;text-decoration: underline; font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";}
-
-	
+@media (max-width: 649px){p{
+    color: #FB0514;
+    border: 2px solid #098213;
+    margin-top: 42px;
+    margin-bottom: 19px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    left: auto;
+    text-shadow: 0px 0px #1BA4A2;
+}
 	.bor{
     border: 6px solid green;
     background-color: orange;
@@ -56,21 +64,3 @@ h1   {
     border: 3px solid black;
     background-image: linear-gradient(272deg,rgba(11,180,36,1.00) 0%,rgba(255,0,0,1.00) 100%);
 }
-
-@media screen and (max-width:800px){
-	p{color:#099B19}
-}
-
-@media screen and (max-width: 649px){p{
-    color: #FB0514;
-    border: 2px solid #098213;
-    margin-top: 42px;
-    margin-bottom: 19px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    left: auto;
-    text-shadow: 0px 0px #1BA4A2;
-	background-color: aqua !important;
-	
-	}
-	}
