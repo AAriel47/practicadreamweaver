@@ -2,6 +2,9 @@
 .grueso{font-weight:bold; color:#0D06AD; }
 
 .anteior{background-color:#9DF5BD; font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif"; font-weight: bold; }
+
+
+
 p {
     color: #FF0303;
     text-align: center;
@@ -9,7 +12,7 @@ p {
     margin-bottom: 15px;
     padding-top: 9px;
     padding-bottom: 9px;
-    border-radius: 72px;
+    border-radius: 0px 72px 72px;
     background-image: -webkit-linear-gradient(1deg,rgba(6,195,243,1.00) 0%,rgba(248,255,0,1.00) 100%);
     background-image: -moz-linear-gradient(1deg,rgba(6,195,243,1.00) 0%,rgba(248,255,0,1.00) 100%);
     background-image: -o-linear-gradient(1deg,rgba(6,195,243,1.00) 0%,rgba(248,255,0,1.00) 100%);
@@ -19,21 +22,39 @@ p {
     font-size: large;
     font-variant: normal;
     font-weight: bold;
+    border-width: 0px;
 }
 
-pre{font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";color:green;}
+center > p{color:#126B0B; font-weight: bold; font-size:38px; border-radius:0px; background:#FFFFFF;}
+
+pre{
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+    color: green;
+    /* [disabled]border-color: #A7070A; */
+    border-style: solid;
+    border-width: 1em;
+}
 body p {
 }
 span{color:blue;font-style: oblique;font-size: 18px;font-weight: 200;text-decoration: underline; font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";}
 
 	
 	.bor{
-    border: 6px solid green;
+    border-color: #F80458;
+    border-style: solid;
+    border-left-width: 6px;
+    border-right-width: 6px;
+    /* [disabled]border-bottom-width: 6px; */
+    border-top-width: 6px;
     background-color: orange;
     color: green;
     font-variant: small-caps;
+    background-image: -webkit-linear-gradient(0deg,rgba(252,47,47,1.00) 25.39%,rgba(0,245,43,1.00) 76.17%);
+    background-image: -moz-linear-gradient(0deg,rgba(252,47,47,1.00) 25.39%,rgba(0,245,43,1.00) 76.17%);
+    background-image: -o-linear-gradient(0deg,rgba(252,47,47,1.00) 25.39%,rgba(0,245,43,1.00) 76.17%);
+    background-image: linear-gradient(90deg,rgba(252,47,47,1.00) 25.39%,rgba(0,245,43,1.00) 76.17%);
 }
-}
+
 .bord{
     border: 6px solid green;
     background-color: lightpink;
@@ -57,8 +78,18 @@ h1   {
     background-image: linear-gradient(272deg,rgba(11,180,36,1.00) 0%,rgba(255,0,0,1.00) 100%);
 }
 
+
+p b{ font-size:28px; font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";color:blue; background:#BEF80C;}
+
 @media screen and (max-width:800px){
-	p{color:#099B19}
+	p{color:#099B19;
+	border:1px solid #06055A;}
+	center{background-color:#DD24CB;
+	color: red;
+	font-size: 30px;
+	margin:20px;
+}
+
 }
 
 @media screen and (max-width: 649px){p{
@@ -70,7 +101,28 @@ h1   {
     padding-bottom: 20px;
     left: auto;
     text-shadow: 0px 0px #1BA4A2;
-	background-color: aqua !important;
+    background-color: aqua !important;
+    background-image: -webkit-linear-gradient(270deg,rgba(242,248,11,1.00) 19.17%,rgba(255,0,0,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(242,248,11,1.00) 19.17%,rgba(255,0,0,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(242,248,11,1.00) 19.17%,rgba(255,0,0,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(242,248,11,1.00) 19.17%,rgba(255,0,0,1.00) 100%);	
+	}
+	}
+
+
+@media screen and (max-width:200px){
+p{color:#D5C809;
+	border: 3px solid #A80609;
+	margin:auto;
+	background-color:#14889B;
 	
 	}
+	center{font-size: 15px;
+	color:black;
+	background-color:white;
 	}
+pre {
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+    color: green;
+}
+}
