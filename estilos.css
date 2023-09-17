@@ -4,6 +4,8 @@
 .anteior{background-color:#9DF5BD; font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif"; font-weight: bold; }
 
 h1~h2{color:red;}
+p[name*="mi"]{color:green;font-zise:55px;border-radius:0px;  
+   }
 
 p {
     color: #FF0303;
