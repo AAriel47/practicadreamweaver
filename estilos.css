@@ -6,6 +6,8 @@
 h1~h2{color:red;}
 p[name*="mi"]{color:green;font-zise:55px;border-radius:0px;  
    }
+.marcar{text-align-last: left; text-align:center; text-indent:inherit; word-spacing:5px; letter-spacing:10px;}
+.fig{vertical-align:text-bottom;}
 
 p {
     color: #FF0303;
@@ -109,22 +111,44 @@ p b{ font-size:28px; font-family:Impact, Haettenschweiler, "Franklin Gothic Bold
     background-image: -o-linear-gradient(270deg,rgba(242,248,11,1.00) 19.17%,rgba(255,0,0,1.00) 100%);
     background-image: linear-gradient(180deg,rgba(242,248,11,1.00) 19.17%,rgba(255,0,0,1.00) 100%);	
 	}
+body time {
+}
+
 	}
 
 
 @media screen and (max-width:200px){
-p{color:#D5C809;
+p{color: blue;
 	border: 3px solid #A80609;
 	margin:auto;
 	background-color:#14889B;
 	
 	}
-	center{font-size: 15px;
-	color:black;
-	background-color:white;
+	center{
+    font-size: 52px;
+    color: #06126B;
+    background-color: #B5F0A1;
+    border-width: 59em;
+    border-color: #0D9A56;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+    border-radius: 34px;
 	}
 pre {
     font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
     color: green;
 }
+}
+
+@media screen and (orientation:landscape){
+body a {
+    border: 1px solid #06055A;
+    color: #099B19;
+}
+.grueso {
+    font-weight: bold;
+    color: #0D06AD;
+}
+
+
 }
