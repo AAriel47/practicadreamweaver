@@ -149,6 +149,6 @@ body a {
     font-weight: bold;
     color: #0D06AD;
 }
-
-
 }
+#fuente{font:italic bold 53px mifuente,Verdana, sans-serif;}
+@font-face{font-family: mifuente; src:url("fuente/MATURASC.TTF")}
