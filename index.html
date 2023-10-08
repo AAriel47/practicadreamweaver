@@ -2,36 +2,89 @@
 <html>
 <head>
 	<!--<script>alert("bienvenidos")</script>-->
-	<script src="./mensaje.js"></script>
+	<script src="mensaje.js"></script>
 <meta charset="utf-8">
 <title>La nueva Presentación de Dreanweaver 2023</title>
-<link href="./estilos.css" rel="stylesheet" type="text/css">
+<link href="estilos.css" rel="stylesheet" type="text/css">
 <style type="text/css">
 	.nuevo{color:#F31418}
 </style>
-    <script>
-    function cambio(){
+<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.datepicker.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.accordion.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.dialog.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.resizable.min.css" rel="stylesheet" type="text/css">
+<script src="elementos.js"></script>
+<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.datepicker.min.js"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.accordion.min.js"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.dialog.min.js"></script>
+<script src="jQueryAssets/jquery-ui-effects.custom.min.js"></script>
+<script>
+function cambio(){
         document.body.style.backgroundColor="green";
     }
     document.addEventListener("click",cambio);
-    </script>
+function MM_DW_effectHighlight(obj,method,effect,color,speed)
+{
+    obj[method](effect, {color:color}, speed);
+}
+</script>
+
 </head> 
     
-<body>
-    <figure>
-        <img src="images/borrar.png" width="10%" alt="varias">
+<body onload="alert('ariel');">
+    <h1>hola</h1>
+    <h1>chau</h1>
+    <p>ariel</p><p>alejandro</p>
+    <p id ="ima">ESTOS ES NUEVO</p>
+    <button type="button" class="nofloat" onloat="alert('ariel')">sin float</button>
+    <figure  >
+        <img src="images/borrar.png" width="10%" alt="varias" id="imagen">
         <figcaption>varias imagenes</figcaption>
      
     </figure>
-	<a id="arriba"></a>
-    <p name="arielalemi">Alejandro ariel uñates</p>
-	<p onClick="alert('hola')" >LOS DATOS SON de todos los días <span translate="yes" contenteditable="true" > &nbsp; &nbsp;the doors</span></p>
+    <br>
+    <ul class="tipo grande">
+        <li>tucuman    </li>
+        <li>catamarca</li>
+        <li>salta</li>
+    </ul>
+    <br>
+    <button type="button" id = "cambio" onClick="MM_DW_effectHighlight($('#imagen'),'toggle','highlight','#F9F903',1000);cambiar()">Ocultar</button>
+    
+    <button type="button" id="agregar" onClick="crear(ele=prompt('Etiqueta: '),val=prompt('texto: '))">Crear etiqueta</button><br>
+    <button type="button" onclick="eti(e=prompt('etiqueta2'), v=prompt('texto2'))">segunda etiqueta</button>
+	
+    
+    <a id="arriba"></a>
+<p name="arielalemi" class="gato">Alejandro ariel uñates</p>
+	<p id="fuente" >LOS DATOS SON de todos los días <span translate="yes" contenteditable="true" > &nbsp; &nbsp;the doors</span></p>
+    <button type="button" onClick="fuente('famoso')">ver atributos</button>
     <a href="doc.pdf" Title="descargar pdf">descargar</a><br>
     <a href="mailto:alejandroarielunate@gmail.com?subject=des">mail</a><br>
     <input type="image" src="help.jpg" alt="Imagen de help">
     <input type="file">
+    
+<div id="Dialog1">hola como estas</div><br>
+<div id="Accordion1">
+  <h3><a href="#">Sección 1</a></h3>
+<div>
+  <p>Contenido 1</p>
+</div>
+<h3><a href="#">Sección 2</a></h3>
+<div>
+  <p>Contenido 2</p>
+</div>
+<h3><a href="#">Sección 3</a></h3>
+<div>
+  <p>Contenido 3</p>
+</div>
+</div><br>
+<input type="text" id="Datepicker1"><br>
 <details>
-		<summary>+Animales domésticos</summary>
+  <summary>+Animales domésticos</summary>
 		<blockquote>
 			<dl>
 				<dt>gato</dt>
@@ -43,15 +96,15 @@
 	</details>
     <p><b><b>dale</b></b></p>
     <time datetime="2023-08-30T00:00" pubdate>Fecha de publicaci&oacute;n:30/08/2023 - 00:00</time><br>
-
-<!-- #BeginDate format:fcSw1a -->Mi&eacute;rcoles, 20 Septiembre, 2023 7:55 PM<!-- #EndDate -->
+<!-- #BeginDate format:fcSw1a -->Martes, 26 Septiembre, 2023 10:45 PM EndDate 
     <input type="date" value="2023-08-28">  <input type="datetime-local"> <input type="time"> <input type="color" value="#009900">
 <p><a href="www.google.com" target="_blank"><img src="help.jpg" alt="granos" width="24" height="24" title="arroz" /></a></p>
 	<form name="datos" method="post" action="https://formsubmit.co/alejandroarielunate@gmail.com" target="_self" enctype="text/plain" accept-charset>
         <label for="tele">Tel&eacute;fono:&nbsp;</label>
         <input type="tel" name="tele" id= "tele" pattern="[0-9]{10}" title="N&uacute;mero Telef&oacute;no" placeholder="N&uacute;mero Telef&oacute;no">
-        <label for="cp">CP:&nbsp; ;</label>
-        <input name="cp" id="cp" pattern="[0-9]{5}" required title="c&oacute;digo postal 5 d&iacute;gitos" placeholder="C&oacute;digo postal">
+        
+      <label for="cp">CP:&nbsp; ;</label>
+        <input name="cp" required id="cp" placeholder="C&oacute;digo postal" pattern="[0-9]{5}" title="c&oacute;digo postal 5 d&iacute;gitos">
         <label for="textfield">Nombre:&nbsp;</label>
         <input type="text" name="textfield" id="textfield" placeholder="Nombre" title="Nombre">
         <label for="textfield2">Apellido:&nbsp;</label>
@@ -119,7 +172,7 @@
         </tr>
       </tbody>
 </table> 
-    <center>alejandro ariel uñate</center>
+    <center id="fuentes" onclick="alert(palabra[0])">alejandro ariel uñate</center>
 	<cite>no te des porvencido</cite><br>
 	<time datetime ="2023/07/23" pubdate><mark>publicado</mark><small>fecha</small>23/07/2023</time>
 	<pre class="grueso"><code>System.out.println("hola")
@@ -127,7 +180,7 @@
 				{System.out.println("gays")}</code></pre>
 	<address>alejandroarielunate@gmail.com</address>
 <p>hola como <wbr>
-      <span class="grueso">te sientes hoy </span><a href="./visitantes.html">esta </a></p>
+      <span class="grueso">te sientes hoy </span><a href="visitantes.html">esta </a></p>
 <pre><center>todos son gays
 y además putos</center></pre>
 	<center>
@@ -174,7 +227,7 @@ y además putos</center></pre>
 	<table border="3px" bordercolor="#047314" cellpadding="5px" cellspacing="11px" bgcolor="#D0EB59">
 		<thead>
 		<tr>
-			<td colspan="3"><center><strong>CANDIDATOS</strong></center></td>
+			<td colspan="3" align=""><center><strong>CANDIDATOS</strong></center></td>
 		</tr>		
 		</thead>
 		<tbody>
@@ -197,6 +250,20 @@ y además putos</center></pre>
 	</tfoot>	
 	
 	</table>
-	</body>
-	
+    <script src="elementos.js"></script>
+    <script type="text/javascript">
+$(function() {
+	$( "#Datepicker1" ).datepicker(); 
+});
+$(function() {
+	$( "#Accordion1" ).accordion({
+		animate:{easing: "swing"}
+	}); 
+});
+$(function() {
+	$( "#Dialog1" ).dialog(); 
+});
+    </script>
+</body>
+
 </html>

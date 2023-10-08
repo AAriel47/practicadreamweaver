@@ -1,0 +1,25 @@
+@charset "utf-8";
+.borde{border-width: 3px 5px 2px 8px; border-color: red blue green yellow;border-style: 
+solid;}
+.redondo{
+    border-radius: 15px 15px 45px 45px;
+    border: 5px solid red;
+    width: 180px;
+    text-align: center;
+    background-color: #E0F09B;
+    background-image: url(url);
+    word-spacing: 10px;
+    letter-spacing: 10px;
+    vertical-align: super;
+    text-indent: 0px;
+}
+.re{border-top-left-radius:20px; border-top-right-radius:20px; border-bottom-right-radius: 50px; border-bottom-left-radius:50px; border: 5px solid blue; width: 200px; text-align:center;}
+.r{border-radius:15px 30px; border: 3px solid black; width: 200px; text-align: center;}
+.red{border-radius:15px / 30px;border:3px solid green; width: 200px; text-align: center;outline: 12px solid yellow; outline-offset:3px; }
+.filete{ margin: 50px; border: 30px solid; border-image: url("images/help.jpg") 15 stretch; border-image-slice: 25%; text-align:center;}
+#borrar{text-decoration:underline; font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";}
+#volver{color:red;text-shadow:2px 2px 2px blue; text-align:center; box-shadow:12px 12px 15px 2px gray; margin:10px 300px; background-color:#F8F7A1;}
+.degr{background: -webkit-radial-gradient(center, ellipse, #FFFFFF,
+#000000);}
+.degr1{background: -webkit-linear-gradient(top, #FFFFFF, #666666);}
+.pe{font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";font-size:35px; color:#07F10C;}
