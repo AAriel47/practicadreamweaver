@@ -7,11 +7,11 @@
 ;     
     
 }
-#imagen{
+#imagen1{
     float: right;
     filter: sepia(1);
     filter: drop-shadow(20px 20px 2px red);
-    filter: opacity(0.5);
+    filter: opacity(10);
     position: fixed;
     left: auto;
     top: 9px;

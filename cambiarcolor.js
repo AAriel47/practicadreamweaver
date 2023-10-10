@@ -1,5 +1,5 @@
 // JavaScript Document
-alert("puto")
+
 function color(){
 	document.body.style.background="red";
 }

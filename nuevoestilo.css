@@ -23,3 +23,13 @@ solid;}
 #000000);}
 .degr1{background: -webkit-linear-gradient(top, #FFFFFF, #666666);}
 .pe{font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";font-size:35px; color:#07F10C;}
+a:link {font-family:"Time New Roman";
+    text-decoration:line-through;
+    font-size:33px;
+    color:gray;
+}
+ /*#fi{transform: translate(200px,300px) scale(5) rotate(90grad) skewY(85deg);}*/    
+#fi2{transform: translate(100px) skew(45deg);}
+body{perspective: 500px; perspective-origin: 50% 150%;}
+#fi:hover{transform: scale3d(3,3,3) translate3d(100px, 0px, 0px) perspective(500px) rotate3d(0, 0, 1, 45deg)}
+

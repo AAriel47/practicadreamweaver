@@ -29,6 +29,10 @@ function eti(ele, texto){
     document.body.appendChild(etiqueta);
 }
 
+function transformar(){ 
+   document.getElementById("imagen").transform.translate(10px);
+   
+}
 
 function cambiar(){
 
