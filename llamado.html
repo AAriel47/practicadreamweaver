@@ -30,6 +30,9 @@ a:hover {
 a:active {
     text-decoration: underline;
     color: #C110C0;
+    text-shadow: 4px 2px 1px #48ED04;
+    -webkit-box-shadow: 2px 0px;
+    box-shadow: 2px 0px;
 }
     h1,h2,h3,h4,h5,h6 {
     font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
@@ -46,17 +49,47 @@ h3 {
     font-size: 10px;
     color: #098B14;
 }
+    #volver {
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-size: 12px;
+    font-style: italic;
+    line-height: normal;
+    font-weight: bold;
+    font-variant: small-caps;
+    text-transform: uppercase;
+    color: #026329;
+    text-decoration: underline;
+}
+    #pie {background-color: yellow;
+    overflow: scroll;
+    position: absolute;
+    visibility: visible;
+    height: auto;
+    width: auto;
+    left: auto;
+    top: auto;
+}
     </style>
 </head>
-<body>
-    <button type="button" onClick="trans(valor=prompt('ingrese x:'))">transladar</button>
-    <header>
-        <h1 >buen d&iacute;a</h1>
+<body onUnload="alert('adios')" onResize="alert('cambio tamaño')">
+<div class="red flotar1" id="volver" onmouseout="this.style.borderColor='blue';" onmouseover="this.style.borderColor='red';"><input type= "button" onClick="esconder()" id="inter" value="Ocultar"     
+></div>
+    <div><header id="pie">Colocar aquí el contenido para  id "pie"</header></div>
+ <br>
+    
+    <div class="flotar2">
+      <button type="button" onClick="trans(valor=prompt('ingrese x:'))" id="ocultar">transladar</button>
+
+</div>
+    <header class="lin" >
+        <h1 class="sombra">buen d&iacute;a</h1>
 
     </header>
-    <h2>todo bien</h2>
-    <h3 id="fi2">me alegro</h3>
-<p class="pe"><a href="marco.html" target="_blank">marco</a></p>
+    <br>
+    <br>
+    <h2 id="mover" class="blo"><a>todo bien</a></h2>
+    <h3 id="fi2" onmouseout="resal(this, 1);" onmouseover="resal(this, 2);">me alegro</h3>
+<p class="pe bloque"><a href="marco.html" target="_blank">marco</a></p>
     <img src="help.jpg" alt="ayuda" title= "aydua" id="fi">
 </body>
 </html>
