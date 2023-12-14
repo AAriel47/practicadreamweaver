@@ -1,11 +1,34 @@
 @charset "utf-8";
 /*#ocultar{visibility:visible;}*/
-.blo{display:block; position: relative;}
+.blo{
+    display: block;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
 .lin{display:inline;}
 .bloque{position:relative; }
 .flotar1{float:left;}
 .flotar2{float:right; margin: 10px 100px;}
 #inter{ }
+#fondo{
+    position: absolute;
+    z-index: 0;
+    height: 30px;
+    width: 10px;
+}
+#abso{
+    position: absolute;
+    background-color: #E6F73C;
+    visibility: visible;
+    z-index: 1;
+    overflow: scroll;
+    left: 415px;
+    top: 67px;
+    width: 500px;
+    height: 50px;
+}
 .sombra{
     box-shadow: 10px 10px 13px 3px #051D02;
     width: 100px;

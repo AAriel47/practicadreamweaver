@@ -60,28 +60,30 @@ h3 {
     color: #026329;
     text-decoration: underline;
 }
-    #pie {background-color: yellow;
-    overflow: scroll;
+    #pie {
+    background-color: yellow;
+    overflow: visible;
     position: absolute;
     visibility: visible;
-    height: auto;
+    height: 100px;
     width: auto;
     left: auto;
     top: auto;
+    z-index: 0;
 }
     </style>
 </head>
 <body onUnload="alert('adios')" onResize="alert('cambio tamaño')">
 <div class="red flotar1" id="volver" onmouseout="this.style.borderColor='blue';" onmouseover="this.style.borderColor='red';"><input type= "button" onClick="esconder()" id="inter" value="Ocultar"     
 ></div>
-    <div><header id="pie">Colocar aquí el contenido para  id "pie"</header></div>
+    <div id="fondo"><header><img src="images/enviar.jpg" alt="imagen imaginaria"></header></div>
  <br>
     
     <div class="flotar2">
       <button type="button" onClick="trans(valor=prompt('ingrese x:'))" id="ocultar">transladar</button>
 
 </div>
-    <header class="lin" >
+<header class="lin" id="abso">
         <h1 class="sombra">buen d&iacute;a</h1>
 
     </header>
